@@ -277,6 +277,7 @@ section {
         margin: auto;
         height: auto;
         width: auto;
+        border-radius: 50%;
     }
 
     .home-img img {
