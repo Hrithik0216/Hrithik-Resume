@@ -1,33 +1,33 @@
-let menu = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+// let menu = document.querySelector('#menu-icon');
+// let navbar = document.querySelector('.navbar');
 
-menu.onclick = () => {
-    console.log('Menu clicked');
-    menu.classList.toggle('bx-x');
-    navbar.classList.toggle('open');
-};
-window.addEventListener('resize', () => {
-    if (window.innerWidth > 850) {
-        // Reset the menu to its default closed state
-        menu.classList.remove('bx-x');
-        navbar.classList.remove('open');
-    }
-});
+// menu.onclick = () => {
+//     console.log('Menu clicked');
+//     menu.classList.toggle('bx-x');
+//     navbar.classList.toggle('open');
+// };
+// window.addEventListener('resize', () => {
+//     if (window.innerWidth > 850) {
+//         // Reset the menu to its default closed state
+//         menu.classList.remove('bx-x');
+//         navbar.classList.remove('open');
+//     }
+// });
 
-const sr = ScrollReveal({
-    distance: '40px',
-    duration: 2500,
-    reset: true
-});
+// const sr = ScrollReveal({
+//     distance: '40px',
+//     duration: 2500,
+//     reset: true
+// });
 
-sr.reveal('.logo', { delay: 200, origin: 'left' })
-sr.reveal('.navbar', { delay: 400, origin: 'top' });
-sr.reveal('.menu-btn', { delay: 500, origin: 'right' });
-sr.reveal('.home-text span', { delay: 600, origin: 'top' });
-sr.reveal('.home-text h1', { delay: 680, origin: 'left' });
-sr.reveal('.home-text p', { delay: 750, origin: 'right' });
-sr.reveal('.main-btn', { delay: 860, origin: 'left' });
-sr.reveal('.share', { delay: 950, origin: 'bottom' });
-sr.reveal('.home-img', { delay: 1000, origin: 'right' });
+// // sr.reveal('.logo', { delay: 200, origin: 'left' })
+// // sr.reveal('.navbar', { delay: 400, origin: 'top' });
+// // sr.reveal('.menu-btn', { delay: 500, origin: 'right' });
+// // sr.reveal('.home-text span', { delay: 600, origin: 'top' });
+// // sr.reveal('.home-text h1', { delay: 680, origin: 'left' });
+// // sr.reveal('.home-text p', { delay: 750, origin: 'right' });
+// // sr.reveal('.main-btn', { delay: 860, origin: 'left' });
+// // sr.reveal('.share', { delay: 950, origin: 'bottom' });
+// // // sr.reveal('.home-img', { delay: 1000, origin: 'right' });
 
 
